@@ -16,79 +16,79 @@ const Index = () => {
   const completedProjects = [
     {
       id: 1,
-      title: "Механический Автомат",
-      description: "Паровой робот с искусственным интеллектом",
-      image: "/img/d2466341-21e6-487d-9008-c52a6bb2e8af.jpg",
-      technologies: ["Медь", "Латунь", "Пар"],
-      status: "Завершён",
+      title: "Серия 'Выживание в Стимпанк Мире'",
+      description: "100+ серий Minecraft с механическими модами",
+      image: "/img/ba1ef839-b31e-4ebe-b32a-dc537fde1508.jpg",
+      technologies: ["Create Mod", "Industrial Craft", "Buildcraft"],
+      status: "2.5M просмотров",
     },
     {
       id: 2,
-      title: "Воздушный Дирижабль",
-      description: "Летательный аппарат для исследований",
-      image: "/img/d2466341-21e6-487d-9008-c52a6bb2e8af.jpg",
-      technologies: ["Газ", "Ткань", "Дерево"],
-      status: "Завершён",
+      title: "Гигантский Паровой Замок",
+      description: "Эпичная постройка с редстоун механизмами",
+      image: "/img/ba1ef839-b31e-4ebe-b32a-dc537fde1508.jpg",
+      technologies: ["Redstone", "Command Blocks", "WorldEdit"],
+      status: "1.8M просмотров",
     },
   ];
 
   const inProgressProjects = [
     {
       id: 1,
-      title: "Временная Машина",
-      description: "Устройство для путешествий во времени",
-      progress: 75,
-      technologies: ["Хронотон", "Кристаллы", "Медь"],
+      title: "Стимпанк Сервер Minecraft",
+      description: "Собственный сервер с уникальными механиками",
+      progress: 85,
+      technologies: ["Spigot", "Custom Plugins", "MySQL"],
     },
     {
       id: 2,
-      title: "Паровой Экзоскелет",
-      description: "Усиливающий костюм для рабочих",
-      progress: 45,
-      technologies: ["Сталь", "Пар", "Шестерни"],
+      title: "Документальный Фильм",
+      description: "История развития Minecraft сообщества",
+      progress: 60,
+      technologies: ["Premiere Pro", "After Effects", "Cinema 4D"],
     },
   ];
 
   const videos = [
     {
       id: 1,
-      title: "Сборка Парового Двигателя",
-      description: "Пошаговая инструкция",
-      thumbnail: "/img/e884d6b9-d41f-448c-a0aa-e23885ebac8d.jpg",
-      duration: "15:30",
+      title: "Как Построить Мега-Фабрику",
+      description: "Create Mod туториал для Minecraft",
+      thumbnail: "/img/7cb41e4d-00c9-4198-9656-2fbc3e162765.jpg",
+      duration: "25:45",
     },
     {
       id: 2,
-      title: "Работа с Медными Трубами",
-      description: "Мастер-класс по пайке",
-      thumbnail: "/img/e884d6b9-d41f-448c-a0aa-e23885ebac8d.jpg",
-      duration: "22:15",
+      title: "Лучшие Моды для Стимпанка",
+      description: "Обзор топ-10 модов для Minecraft",
+      thumbnail: "/img/7cb41e4d-00c9-4198-9656-2fbc3e162765.jpg",
+      duration: "18:30",
     },
   ];
 
   const team = [
     {
       id: 1,
-      name: "Профессор Механикус",
-      role: "Главный Инженер",
-      specialization: "Паровые механизмы и автоматы",
-      contact: "@mechanicus_prof",
+      name: "Алекс Крафтер",
+      role: "Основатель & Оператор",
+      specialization: "Minecraft контент, съёмка и монтаж",
+      contact: "@alex_crafter",
       avatar: "/img/ca605d69-3a25-40f3-aafd-24b9d1b5aee2.jpg",
     },
     {
       id: 2,
-      name: "Доктор Коггинс",
-      role: "Изобретатель",
-      specialization: "Летательные аппараты",
-      contact: "@dr_coggins",
+      name: "Мария Редстоун",
+      role: "Разработчик",
+      specialization: "Плагины для сервера, редстоун механики",
+      contact: "@maria_redstone",
       avatar: "/img/ca605d69-3a25-40f3-aafd-24b9d1b5aee2.jpg",
     },
     {
       id: 3,
-      name: "Мастер Гирман",
-      role: "Механик",
-      specialization: "Точные приборы и часы",
-      contact: "@master_gearman",
+      name: "Дмитрий Билдер",
+      role: "Строитель & Дизайнер",
+      specialization: "Мега-постройки, WorldEdit, стимпанк дизайн",
+      contact: "@dmitry_builder",
       avatar: "/img/ca605d69-3a25-40f3-aafd-24b9d1b5aee2.jpg",
     },
   ];
@@ -114,11 +114,10 @@ const Index = () => {
             </div>
           </div>
           <h1 className="text-6xl font-bold text-steampunk-cream mb-4 font-serif">
-            STEAMPUNK PORTFOLIO
+            STEAMPUNK MEDIA
           </h1>
           <p className="text-xl text-steampunk-steam max-w-2xl mx-auto">
-            Добро пожаловать в мастерскую механических чудес и паровых
-            изобретений
+            Медиа-студия создающая контент по Minecraft в стиле стимпанк
           </p>
           <div className="flex justify-center mt-8 space-x-4">
             <Icon
@@ -317,12 +316,12 @@ const Index = () => {
             <CardContent>
               <div className="text-steampunk-cream space-y-4">
                 <p className="text-lg">
-                  🔴 <strong>Сегодня в 19:00</strong> - Сборка парового
-                  двигателя для дирижабля
+                  🔴 <strong>Сегодня в 19:00</strong> - Строим гигантскую
+                  паровую фабрику в Minecraft
                 </p>
                 <p className="text-lg">
-                  📅 <strong>Завтра в 15:00</strong> - Мастер-класс по работе с
-                  медными трубами
+                  📅 <strong>Завтра в 15:00</strong> - Обзор новых модов для
+                  стимпанк сервера
                 </p>
                 <div className="flex flex-wrap gap-4 mt-6">
                   <Button className="bg-steampunk-steam text-steampunk-gear hover:bg-steampunk-cream">
@@ -363,10 +362,10 @@ const Index = () => {
             <CardContent className="space-y-6">
               <div className="border-l-4 border-steampunk-bronze pl-4">
                 <p className="text-steampunk-gear font-semibold">
-                  Новый изобретательный конкурс!
+                  Новое видео: Секреты Create Mod!
                 </p>
                 <p className="text-steampunk-dark-bronze">
-                  Принимаем заявки на лучший паровой механизм года
+                  Показываем скрытые механики популярного мода
                 </p>
                 <span className="text-sm text-steampunk-bronze">
                   2 часа назад
@@ -375,10 +374,10 @@ const Index = () => {
               <Separator className="bg-steampunk-bronze" />
               <div className="border-l-4 border-steampunk-bronze pl-4">
                 <p className="text-steampunk-gear font-semibold">
-                  Завершён проект временной машины
+                  Стимпанк сервер готов к бета-тесту!
                 </p>
                 <p className="text-steampunk-dark-bronze">
-                  Первые испытания прошли успешно!
+                  Уникальные плагины и механики уже работают
                 </p>
                 <span className="text-sm text-steampunk-bronze">
                   5 часов назад
@@ -387,10 +386,10 @@ const Index = () => {
               <Separator className="bg-steampunk-bronze" />
               <div className="border-l-4 border-steampunk-bronze pl-4">
                 <p className="text-steampunk-gear font-semibold">
-                  Мастер-класс по пайке медных труб
+                  Конкурс на лучшую постройку
                 </p>
                 <p className="text-steampunk-dark-bronze">
-                  Запись доступна в нашей группе
+                  Принимаем заявки на стимпанк строения
                 </p>
                 <span className="text-sm text-steampunk-bronze">
                   1 день назад
@@ -475,7 +474,7 @@ const Index = () => {
             <Icon name="Hammer" size={40} className="text-steampunk-brass" />
           </div>
           <p className="text-lg mb-4">
-            Steampunk Portfolio - Мастерская механических чудес
+            Steampunk Media - Minecraft контент в стиле стимпанк
           </p>
           <p className="text-steampunk-bronze">
             © 2024 Все права защищены паром и медью
